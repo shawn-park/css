@@ -1,0 +1,38 @@
+/* https://login.afreecatv.com/afreeca/login.php en_US */
+@charset "utf-8";
+html {-webkit-text-size-adjust: none;}
+button { cursor: pointer; background: transparent; border: none;}
+
+#accountN { width: 360px; min-height: 340px; margin:0 auto; padding:50px 0 0;}
+#accountN .loading { display:block; position:absolute;top:0;left:0;right:0;bottom:0; z-index:5;border-radius:2px;text-indent:-9999px;background-color:#2e6afd ; }
+#accountN input::-webkit-input-placeholder { color:#31374c; }/* WebKit, Blink, Edge */
+#accountN input:-moz-placeholder { color:#31374c; opacity:1; }/* Mozilla Firefox 4 to 18 */
+#accountN input::-moz-placeholder { color:#31374c; opacity:1; }/* Mozilla Firefox 19+ */
+#accountN input:-ms-input-placeholder { color:#31374c !important; }/* Internet Explorer 10-11 */
+#accountN .my-placeholder {color: #31374c !important;}
+#accountN button, #accountN a {outline:none}
+
+#accountN .txt_area {text-align:center;padding-top:25px;line-height:100%;font-size:13px;color:#aaaaaa;}
+#accountN .txt_area a {color:#2a6ada;font-size:14px;font-weight:bold; text-decoration: none;letter-spacing:0px; }
+
+#accountN .sns_join {margin-top:30px; overflow: hidden;}
+#accountN .sns_join div { height: 8px; margin-bottom: 40px; text-align: center; border-bottom: 1px solid #c2c2c2; }
+#accountN .sns_join div span { padding: 0 8px; color: #c2c2c2; background: #fff; font-size: 13px; line-height: 1;}
+#accountN .sns_join a {position:relative;display:block;box-sizing:border-box;width:100%;height:44px;line-height:40px;margin-top:10px;text-align:center;border-radius:2px;font-size:14px;text-decoration:none;}
+#accountN .sns_join a em {position:absolute;top:11px;left:18px;display:block;height:18px;text-indent:-9999px;background:url('./sns_logo.png') no-repeat ; }
+#accountN .sns_join a:hover em { -webkit-animation-name: turnY; -webkit-animation-duration: .5s; -webkit-animation-iteration-count: 1; animation-name: turnY; animation-duration: .5s; animation-iteration-count: 1; }
+#accountN .sns_join .twitter {color:#00b0f0;border:1px solid #00b0f0}
+#accountN .sns_join .twitter em{ width:19px;background-position:0 0; }
+#accountN .sns_join .twitter:hover {color:#fff;background-color:#00b0f0}
+#accountN .sns_join .twitter:hover em {background-position:0 -18px;}
+#accountN .sns_join .facebook {color:#2b5cbf;border:1px solid #2b5cbf}
+#accountN .sns_join .facebook em{width:18px;background-position:-20px 0}
+#accountN .sns_join .facebook:hover {color:#fff;background-color:#2b5cbf}
+#accountN .sns_join .facebook:hover em {background-position:-20px -18px}
+#accountN .sns_join .google {color:#df4033;border:1px solid #db4437}
+#accountN .sns_join .google em{width:25px;background-position:-38px 0}
+#accountN .sns_join .google:hover {color:#fff;background-color:#db4437}
+#accountN .sns_join .google:hover em {background-position:-38px -18px}
+
+@keyframes turnX { 100% { -webkit-transform: rotateX(360deg); -moz-transform: rotateX(360deg); -ms-transform: rotateX(360deg); -o-transform: rotateX(360deg); transform: rotateX(360deg); } }
+@keyframes turnY { 100% { -webkit-transform: rotateY(360deg); -moz-transform: rotateY(360deg); -ms-transform: rotateY(360deg); -o-transform: rotateY(360deg); transform: rotateY(360deg); } }
